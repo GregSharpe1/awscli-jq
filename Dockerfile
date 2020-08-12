@@ -3,6 +3,7 @@ FROM python:alpine
 RUN apk -v --update add \
         py-pip \
         bash \
+        coreutils \
         groff \
         less \
         mailcap \
