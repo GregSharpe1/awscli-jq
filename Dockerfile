@@ -8,6 +8,8 @@ RUN apk -v --update add \
         less \
         mailcap \
         jq \
+        curl \
+        gettext \
         && \
     pip install --upgrade awscli==1.18.103 && \
     apk -v --purge del py-pip && \
